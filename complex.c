@@ -91,9 +91,12 @@ Credits:
 ***********************************************************************/
 /**************** end self doc ********************************/
 
-
-#include "cup.h"
-//#include "math.h"
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include "malloc.h"
+#include "math.h" 
+#include "complex.h" 
 /* part 1 */
 complex cadd(complex a, complex b)
 {

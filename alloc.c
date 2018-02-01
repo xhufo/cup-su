@@ -228,13 +228,16 @@ Author:    	Dave Hale, Colorado School of Mines, 12/31/89
 // #ifndef complex
 // typedef struct
 // {
-// 	double r; //实部
-// 	double i; //虚部
+// 	double r; //ʵ��
+// 	double i; //�鲿
 // }complex;
 // #endif
-#include "cup.h"
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 #include "malloc.h"
-#include "stddef.h"
+#include "complex.h"  
+                
 /* allocate a 1-d array */
 void *alloc1 (size_t n1, size_t size)
 {
